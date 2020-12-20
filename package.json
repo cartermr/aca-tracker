@@ -1,0 +1,23 @@
+{
+  "name": "aca-tracker",
+  "version": "1.0.0",
+  "description": "Let's create an app that will let us see where people are.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./app/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartermr/aca-tracker.git"
+  },
+  "author": "Matt Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cartermr/aca-tracker/issues"
+  },
+  "homepage": "https://github.com/cartermr/aca-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
