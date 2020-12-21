@@ -6,7 +6,7 @@ let lastClientId = 0
 let clients = []
 
 app.use(express.json())
-app.use(express.static)
+app.use(express.static('public'))
 
 app.get('/', (req, res) => {
     res.json("Hello from express 2")
@@ -57,6 +57,6 @@ app.post('/locations', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('server running on port 3000')
+app.listen(80, () => {
+    console.log('server running on port 80')
 })
